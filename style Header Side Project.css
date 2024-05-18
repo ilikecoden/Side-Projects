@@ -1,0 +1,63 @@
+#header{
+padding: 8px;
+  height: 4em;
+  width: 98%;
+  background-color:#8dc6ff;
+}
+.h1{
+  color:#22313f ;
+  font-size: 20px;
+
+}
+.sub{
+  color: aliceblue;
+}
+.h1,sub{
+  font-weight:100px;
+
+font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.a{
+  
+  border-radius: 90%;
+  background-color:#22313f;
+  position: fixed;
+  top: 20px;
+  left: 900px;
+  padding: 10px
+}
+.b{
+  display:flex;
+  border-radius: 90%;
+  background-color:#22313f;
+  position: fixed;
+  top: 20px;
+  left: 990px;
+  padding: 10px
+}
+.link1{
+  position: fixed;
+  top: 28px;
+  left: 905px;
+}
+.link2{
+  position: fixed;
+  top: 28px;
+  left: 995px;
+}
+.link3{
+  position: fixed;
+  top: 28px;
+  left: 1120px;
+}
+.c{
+  display:flex;
+  border-radius: 90%;
+  background-color:#22313f;
+  position: fixed;
+  top: 20px;
+  left: 1120px;
+  padding: 10px
+}
