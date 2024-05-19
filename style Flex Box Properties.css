@@ -1,0 +1,33 @@
+
+
+.container{
+  border: solid black;
+}
+.flex-item{
+  height: 2.0em;
+  font-size: 1.5em;
+  display:inline-flex;
+  color: white;
+  text-align: center;
+}
+.item-1 {
+  background-color:#240750;
+}
+ .item-2{
+  background-color: blue;
+ }
+ .item-3{
+  background-color: red;
+ }
+ .item-4{
+  background-color: brown;
+ }
+ .item-5{
+  background-color: deeppink;
+ }
+ .item-6{
+  background-color: blueviolet;
+ }
+ .item-7{
+  background-color: black;
+ }
