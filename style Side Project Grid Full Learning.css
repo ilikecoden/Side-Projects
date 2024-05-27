@@ -1,0 +1,33 @@
+*{
+    margin: 3px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150,auto);
+    justify-content: end;
+    align-content:space-around;
+    height: 100vh;
+
+    
+}
+
+
+
+
+.grid-item{
+    padding: 35px;
+    background-color: deeppink;
+}
+.grid-item-1{
+    
+}
+.grid-item-2{
+   
+}
+.grid-item-3{
+   
+}
+.grid-item-4{
+    
+}
