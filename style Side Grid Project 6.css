@@ -1,0 +1,61 @@
+*{
+    background-color: deepskyblue;
+    margin: 4px;
+}
+.grid-container{
+    font-family: "Vesper Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    height: 80vh;
+    width: 200vh;
+    display: grid;
+    grid-template-columns: 90px auto 90px;
+    grid-template-rows: 25% 25% 25%;
+    gap: 2px;
+
+}
+header{
+    text-align: justify;
+    box-shadow: 1px 1px grey;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+nav{
+    text-align:justify;
+    box-shadow: 1px 1px grey;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+aside{
+    text-align: justify;
+    box-shadow: 1px 1px grey;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+main{
+    text-align: justify;
+    box-shadow: 1px 1px grey;
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+footer{
+    text-align: justify;
+    box-shadow: 1px 1px grey;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
