@@ -201,8 +201,14 @@
     font-size: 20px;
     position: absolute;
     top: 650px;
-    left: 60px;
+    left: 90px;
+    font-family: "Vesper Libre", serif;
+  font-weight: 700;
+  font-style: normal
 }
 .i{
     font-size: 1em;
+}
+.span{
+    color: deepskyblue;
 }
