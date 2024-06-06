@@ -1,0 +1,92 @@
+* {
+    margin: 1px;
+}
+.pricing-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-plan{
+    border-top-left-radius: 5%;
+    width: 200px;
+    background-color: darkblue;
+   color: white;
+}
+.plan-feautures{
+    align-items: center;
+
+}
+.plan-title{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.material-symbols-outlined{
+    color: green;
+}
