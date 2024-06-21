@@ -1,0 +1,203 @@
+/* Side Project Responsive Header  */
+*{
+    box-sizing:border-box
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #000000;
+    
+}
+.navbar-links ul{
+    margin-right: 1rem;
+    list-style: none;
+    display: flex;
+}
+.navbar-links li a{
+    
+    color: white;
+    display: block;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+.navbar-links li:hover{
+    background-color: #8C52FF;
+}
+.brand-title{
+    padding: 1rem;
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.span{
+    color: #8C52FF;
+}
+.span-1{
+    margin-left: -253px;
+}
+.toggle-button{
+    height:21px;
+    width: 31px;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+}
+.grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: minmax(100px 200px) 50px minmax(600px 600px);
+    grid-auto-rows: 172px 400px 400px;
+    background-color: #000000;
+    
+}
+.grid-item{
+    background-color: #000000;
+}
+.grid-item-1{
+    margin-top: 105px;
+    margin-left:9px;
+    background-color:#000000;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+}
+.main-title{
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.grid-item-3{
+    margin-top: 80px;
+    margin-left: 200px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+}
+.main-title-1{
+    margin-left: 130px;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.main-title-2{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.main-container{
+    background-color: #000000;
+    display: grid;
+    grid-template-columns:  minmax(400px 800px) 400px auto;
+    grid-template-rows:  500px ;
+    height: 150vh;
+    color: white;
+}
+.main-item-1{
+    grid-column-start:2 ;
+    grid-column-end: 2;
+    grid-row-start:2 ;
+    grid-row-end:2 ;
+}
+.feature-title-1{
+    margin-top: -160px;
+    margin-left: 45px;
+}
+.feature-title-2{
+    margin-top: -165px;
+    margin-left: 45px;
+}
+.main-item-2{
+    grid-column-start:1 ;
+    grid-column-end: 1;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+}
+.img-2{
+    margin-left: 80px;
+}
+.service-container{
+    background-color: #000000;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows:500px 500px ;
+    column-gap: 5px;
+}
+
+
+.service-item-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+}
+.service-item-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.service-item-3{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+.service-title-1{
+    color:  white;
+    background-color: #8C52FF;
+}
+.service-title-2{
+    color:  white;
+    background-color: #8C52FF;
+}
+.service-title-3{
+    color:  white;
+    background-color: #8C52FF;
+}
+
+
+
+
+@media (max-width: 600px){
+    .toggle-button{
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navbar-links{
+        width: 100%;
+    }
+    .navbar-links ul{
+        flex-direction: column;
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: .5rem 1rem ;
+    }
+    .navbar-links .active{
+        display: flex;
+    }
+}
