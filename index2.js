@@ -1,23 +1,10 @@
 /* Login Java Script*/
+var Name = "Christian ";
+var Handlung = "Programmieren"
+var Was = "JavaScript"
 
-var ichBinSoGroß = 16;
+alert(Name + " Was macht er, " + Handlung + " Was macht er, " + Was);
 
-if (ichBinSoGroß > 15 ){
-
-    document.write( "Ich bin größer als 15");
-
-} else if (ichBinSoGroß > 10){
-
-    document.write("Ich bin größer als 10");
-
-} else if (ichBinSoGroß > 5){
-
-    document.write(" Ich bin größer als 5 ") ;
-
-} else if (ichBinSoGroß < 30 ){
-
-    document.write(" Ich bin kleiner als 30 ")
-
-}
+var a = 7 ;
 
 
