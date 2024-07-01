@@ -1,10 +1,8 @@
 /* Login Java Script*/
-var Name = "Christian ";
-var Handlung = "Programmieren"
-var Was = "JavaScript"
 
-alert(Name + " Was macht er, " + Handlung + " Was macht er, " + Was);
+var tweet = prompt("Geben sie ihr Passwort ein!")
 
-var a = 7 ;
+var tweetCount = tweet.length ;
 
+alert("Sie benötigen so viele Chrakter  " + tweetCount + " So viele Charkater müssen sie eingeben " + (20 - tweet.length))
 
