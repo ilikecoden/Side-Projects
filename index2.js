@@ -1,8 +1,12 @@
 /* Login Java Script*/
+ 
+programmierSprache =+ JavaSript ;
 
-var tweet = prompt("Geben sie ihr Passwort ein!")
+var MeinSatz = "Ich lerne gerade die Programmiersprache " + programmierSprache + " Und das macht echt viel spaß" ;
 
-var tweetCount = tweet.length ;
+document.write('MeinSatz')
 
-alert("Sie benötigen so viele Chrakter  " + tweetCount + " So viele Charkater müssen sie eingeben " + (20 - tweet.length))
 
+var name = "Godfather";
+
+Name = Name.toUpperCase()
