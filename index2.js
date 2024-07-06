@@ -1,12 +1,5 @@
-/* Login Java Script*/
+/* Java Script*/
  
-programmierSprache =+ JavaSript ;
+alert('Hello i try my first JavaScript with Html');
 
-var MeinSatz = "Ich lerne gerade die Programmiersprache " + programmierSprache + " Und das macht echt viel spaß" ;
-
-document.write('MeinSatz')
-
-
-var name = "Godfather";
-
-Name = Name.toUpperCase()
+var esGeht = 10 ;
