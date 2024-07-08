@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+        <div class="navbar">
+            <div class="brand-title">Brand <span class="span-1">Gmbh</span></div>
+            <div class="toggle-button">
+                <span href="bar"></span>
+                <span href="bar"></span>
+                <span href="bar"></span>
+            </div>    
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+
+        <div class="main-section">
+            <div class="price-title title-1">$999.<sup>99</sup></div>
+            <div class="main-title title-1">Byscle PM76</div>
+
+            <div class="img-1">
+                <img class="img-1"  src="https://www.ebike-on-tour.de/wp-content/uploads/2021/12/Trefecta-Bike-Header.jpg" alt="bsycle" height="400" margin=".5rem"></img>
+            </div>
+            <div class="section-links">
+                <button onclick="
+                    console.log(`Quantity Cart ${add1}`);
+                    " >Show Quantity</button>
+
+                <button onclick="
+                add1 = add1 + 1;
+                console.log(`Quantity Cart: ${add1}`)
+                
+                "  >Add to Cart</button>
+
+                <button onclick="
+                add1 = add1 + 2;
+                console.log(`Quantity Cart: ${add1}`)
+                
+                " >+2</button>
+
+                <button  onclick="
+                add1 = add1 + 3;
+                console.log(`Quantity Cart: ${add1}`)
+                
+                " >+3</button>
+
+                <button onclick="
+                add1 = 0;
+                console.log(`Reset this Cart.`)
+                console.log(`Quantity Cart: ${add1}`)
+                
+                "  >Reset Cart</button>
+
+            </div>
+        </div>
+
+            <script>
+                let add1 = 0;
+
+
+            </script>
+
+
+
+    
+</body>
+</html>
